@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PluginLn/PluginLn.vcxproj" Id="df783e71-54b5-4e07-84bb-999513b2d267" />
+  <Project Path="PluginSin/PluginSin.vcxproj" Id="03344fd3-6858-47ef-8c01-f6ce1e5f9d10" />
+  <Project Path="калькулятор/калькулятор.vcxproj" Id="fcd24a98-5483-45c5-81e8-30f6ff526c14" />
+</Solution>
