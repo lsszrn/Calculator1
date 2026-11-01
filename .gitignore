@@ -4,6 +4,7 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+*.cmake
 
 .vs/
 *.suo
@@ -26,6 +27,7 @@ ipch/
 *.pch
 *.sdf
 *.userprefs
+*.log
 
 x64/
 Debug/
@@ -33,10 +35,25 @@ Release/
 Win32/
 bin/
 obj/
+out/
 
 *.exe
+*.exe~
 *.dll
 *.so
 *.dylib
+*.app
 *.o
 *.out
+*.a
+
+.idea/
+.vscode/
+*.code-workspace
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
