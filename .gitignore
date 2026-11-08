@@ -55,5 +55,9 @@ out/
 Thumbs.db
 desktop.ini
 
-# Логи
 *.log
+
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.slnx
