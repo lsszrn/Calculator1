@@ -10,13 +10,17 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-add_executable(calculator калькулятор/main.cpp)
+add_executable(calculator 
+    калькулятор/main.cpp
+    калькулятор/parser.cpp
+    калькулятор/plugin_manager.cpp
+)
+
+target_include_directories(calculator PRIVATE калькулятор)
 
 add_library(PluginSin SHARED PluginSin/sin_plugin.cpp)
-target_include_directories(PluginSin PRIVATE ${CMAKE_SOURCE_DIR})
 
 add_library(PluginLn SHARED PluginLn/ln_plugin.cpp)
-target_include_directories(PluginLn PRIVATE ${CMAKE_SOURCE_DIR})
 
 if(MSVC)
     set_target_properties(calculator PROPERTIES
